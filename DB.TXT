@@ -1,0 +1,7 @@
+CREATE TABLE todos (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    task TEXT NOT NULL,
+    user_id INT(11) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+);
