@@ -122,4 +122,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 		<input class="btn btn-info" type="submit" value="Update">
 	</form>
+    <a href="index.php"><input class="btn btn-info" type="submit" value="Home"></a>
 </div>
